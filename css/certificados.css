@@ -1,0 +1,45 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+#cabecalho{
+    background-color: #211f8c;
+    text-align: center;
+    padding: 10px;
+}
+.hhh{
+    margin: 0;
+    color: white;
+}
+#imagens{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.imagem{
+    width: 45%;
+    margin: 10px;
+}
+.texto{
+    margin: 10px 50px;
+    font-size: 16px;
+    font-family: Arial
+}
+/*==========================================*/
+@media screen and (max-width: 700px){
+    #imagens{
+        flex-direction: column;
+        align-items: none;
+        justify-content: none;
+        margin: 0 10px;
+    }
+    .imagem{
+        width: 100%;
+        margin: 10px 0;
+    }
+    .texto{
+        margin:  10px 20px;
+        font-size: 25px;
+        font-family: Arial
+    }
+}
