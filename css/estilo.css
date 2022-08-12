@@ -11,17 +11,20 @@ body{
 .foto{width: 38%;}
 .fotografia{
     width: 180px;
-    transition: 1s;
     height: auto;
-    border-radius: 60px;
-    margin-left: 33px;
+    border-radius: 20%;
+    margin-left: 35px;
     margin-top: 20px;
+    transition: 1s;
+    border: 5px solid;
+    border-color: black red;
 }
 .fotografia:hover{
     width: 210px;
     transition: 1s;
     margin-left: 20px;
-    margin-top: 8px;
+    margin-top: 0px;
+    border-color: red black;
 }
 .texto{
     font-size: 18px;
@@ -31,7 +34,7 @@ body{
 .cor{color: #211f8c;}
 li{
     border-bottom: 3px solid #211f8c;
-    font-size: 16px;
+    font-size: 17px;
 }
 .icon{
     width: 25px;
@@ -39,10 +42,10 @@ li{
 }
 .perfil{
     text-align: justify;
-    
+    font-size: 17px;
 }
 /*==========================================*/
-@media screen and (max-width: 700px){
+@media screen and (max-width: 800px){
     .cabecalho {
         display: flex;
         flex-direction: column;
