@@ -10,7 +10,7 @@ body{
 .cabecalho{display: flex;}
 .foto{width: 38%;}
 .fotografia{
-    width: 180px;
+    width: 65%;
     height: auto;
     border-radius: 20%;
     margin-left: 35px;
@@ -20,10 +20,10 @@ body{
     border-color: black red;
 }
 .fotografia:hover{
-    width: 210px;
+    width: 70%;
     transition: 1s;
-    margin-left: 20px;
-    margin-top: 0px;
+    margin-left: 30px;
+    margin-top: 10px;
     border-color: red black;
 }
 .texto{
@@ -37,7 +37,7 @@ li{
     font-size: 17px;
 }
 .icon{
-    width: 25px;
+    width: 22px;
     height: auto;
 }
 .perfil{
