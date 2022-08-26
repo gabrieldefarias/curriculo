@@ -8,26 +8,27 @@ body{
     background-color: white;
 }
 .cabecalho{display: flex;}
-.foto{width: 38%;}
+.foto{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .fotografia{
-    width: 65%;
+    width: 50%;
     height: auto;
     border-radius: 20%;
-    margin-left: 35px;
-    margin-top: 20px;
-    transition: 1s;
-    border: 5px solid;
+    border: 3px solid;
     border-color: black red;
+    transition: 1s;
 }
 .fotografia:hover{
-    width: 70%;
+    width: 55%;
     transition: 1s;
-    margin-left: 30px;
-    margin-top: 10px;
     border-color: red black;
 }
 .texto{
-    font-size: 18px;
+    font-size: 17px;
     font-family: Arial
 }
 #meio{margin: 10px 20px;}
@@ -43,11 +44,11 @@ li{
 .perfil{
     text-align: justify;
     font-size: 17px;
+    margin: 10px 40px;
 }
 /*==========================================*/
 @media screen and (max-width: 800px){
-    .cabecalho {
-        display: flex;
+    .cabecalho{
         flex-direction: column;
     }
     .texto{
@@ -58,24 +59,15 @@ li{
         margin: 0px 5px;
         padding: 15px;
     }
-    .foto {
-        width: 70%;
-        margin: auto;
-    }
-    .fotografia {
+    .foto{
         width: 100%;
-        transition: 0s;
-        height: auto;
-        border-radius: 50px;
-        margin-left: 0;
-        margin-top: 0;
-        margin-bottom: 20px;
+        margin-bottom: 15px;
+    }
+    .fotografia{
+        width: 80%;
     }
     .fotografia:hover{
-        width: 100%;
-        transition: 0s;
-        margin-left: 0;
-        margin-top: 0;
+        width: 80%;
     }
     #meio{
         font-size: 18px;
@@ -85,5 +77,8 @@ li{
     }
     li{
         font-size: 18px;
+    }
+    .perfil{
+        margin: 10px;
     }
 }
