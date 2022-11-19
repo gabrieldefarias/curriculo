@@ -43,7 +43,7 @@ li{
     align-items: center;
 }
 .icone{
-    width: 70px;
+    width: 80px;
     height: auto;
     border: 1px solid black;
     border-radius: 10px;
@@ -52,8 +52,8 @@ li{
 .leg{
     flex-direction: column;
     text-align: center;
-    margin: 10px;
-    padding: 5px 10px;
+    margin: 10px 0px;
+    padding: 5px 5px;
 }
 .perfil{
     text-align: justify;
