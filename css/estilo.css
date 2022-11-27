@@ -18,7 +18,7 @@ body{
     width: 50%;
     height: auto;
     border-radius: 20%;
-    border: 3px solid;
+    border: 5px solid;
     border-color: black red;
     transition: 1s;
 }
@@ -43,8 +43,9 @@ li{
     align-items: center;
 }
 .icone{
-    width: 80px;
+    width: 120px;
     height: auto;
+    margin: 0 30px;
     border: 1px solid black;
     border-radius: 10px;
     background-color: black;
